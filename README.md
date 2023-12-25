@@ -19,8 +19,33 @@ def max_marks(marks):
     large=marks[-1]
     return large
 ```
+```PYTHON
+''' 
+Program to find the maximum marks using the list method max().
+Developed by:pavithra p 
+RegisterNumber: 23007232
+'''
+def max_marks(marks):
+   large=max(marks)
+   return large
+```
+```PYTHON
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: pavithra p
+RegisterNumber: 23007232
+'''
+def max_marks(list1):
+    max=list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max
+```
 ## Output:
-![Alt text](<maximum of list.png>)
+## ![image](https://github.com/23007232/FindMaximum/assets/139115574/e74024e7-e5ca-4069-b316-b556ff1206ed)
+## ![image](https://github.com/23007232/FindMaximum/assets/139115574/23abab40-41cf-45bc-8312-aa733d03e440)
+## ![image](https://github.com/23007232/FindMaximum/assets/139115574/8d1b6246-88f1-4272-b2d0-f3ec6e4aec9b)
 
 
 ## Result:
